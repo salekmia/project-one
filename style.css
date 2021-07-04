@@ -135,8 +135,50 @@ p.link {
 
 
 /* section-four */
-.section-four {
+.section-four h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.section-four-container {
+    display: flex;
+}
+
+.section-four-item {
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.section-four-item.one {
+    margin-right: 15px;
+}
+
+.section-four-item.two {
+    margin: 0 15px;
+}
+
+.section-four-item.three {
+    margin: 0 15px;
+}
+
+.section-four-item.four {
+    margin-left: 15px;
+}
+
+.section-four-item img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.section-four-item h3 {
+    text-align: center;
 }
 
 /* footer */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
