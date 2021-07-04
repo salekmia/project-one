@@ -66,7 +66,7 @@ p {
     padding-left: 40px;
 }
 
-.section-one span {
+span {
     color: #00308F;
 }
 
@@ -86,9 +86,30 @@ p.link {
 
 
 /* section-two */
-.section-two {
-
+.section-two h2{
+    text-align: center;
+    margin-bottom: 40px;
 }
+
+.section-two-container {
+    display: flex;
+}
+
+.section-two-item {
+    width: 50%;
+    padding: 30px 30px;
+    background-image: linear-gradient(#EA8D8D, #A890FE);
+}
+
+.section-two-container .one {
+    margin-right: 30px;
+}
+
+.section-two-container .two {
+    margin-left: 30px;
+}
+
+
 
 /* section-three */
 .section-three {
